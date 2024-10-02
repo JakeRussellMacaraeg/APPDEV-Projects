@@ -1,0 +1,76 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+
+.quote-generator-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  flex: 1; 
+}
+
+h1 {
+  margin: 50px;
+  font-size: 3rem;
+}
+
+.quote-display {
+  width: 400px;
+  height: 150px; 
+  padding: 2rem;
+  margin: 20px;
+  font-size: 1.5rem;
+  background-color: #f0f0f0;
+  border: 5px solid gray;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: background-color 1s ease;
+}
+
+.quote-display p {
+  margin: 0;
+  color: black;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  background-color: rgb(210, 211, 211);
+  border: none;
+  border-radius: 15px;
+  margin: 0 10px; 
+}
+
+button:hover {
+  background-color: rgb(190, 191, 191);
+  cursor: pointer;
+  color: rgb(46, 46, 46);
+}
+
+button:disabled {
+  background-color: #eee;
+  cursor: not-allowed;
+}
+
+footer {
+  text-align: center;
+  margin-top: 10%;
+
+}
